@@ -1,9 +1,13 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-instagram-p" viewBox="0 0 32 32">
-<path fill="none" stroke="#f7f7f7" style="stroke: var(--color1, #f7f7f7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M22.667 2.667h-13.333c-3.682 0-6.667 2.985-6.667 6.667v0 13.333c0 3.682 2.985 6.667 6.667 6.667v0h13.333c3.682 0 6.667-2.985 6.667-6.667v0-13.333c0-3.682-2.985-6.667-6.667-6.667v0z"></path>
+<path  fill="none" stroke="#f7f7f7"  style="stroke: var(--color1, #f7f7f7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M22.667 2.667h-13.333c-3.682 0-6.667 2.985-6.667 6.667v0 13.333c0 3.682 2.985 6.667 6.667 6.667v0h13.333c3.682 0 6.667-2.985 6.667-6.667v0-13.333c0-3.682-2.985-6.667-6.667-6.667v0z"></path>
 <path fill="none" stroke="#f7f7f7" style="stroke: var(--color1, #f7f7f7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M21.333 15.16c0.042 0.251 0.066 0.54 0.066 0.834 0 2.946-2.388 5.333-5.333 5.333-2.688 0-4.911-1.988-5.28-4.574l-0.003-0.028c-0.032-0.22-0.050-0.473-0.050-0.731 0-2.946 2.388-5.333 5.333-5.333 2.651 0 4.85 1.934 5.264 4.468l0.004 0.031zM23.333 8.667h0.016"></path>
 </symbol>
+    <symbol id="icon-instagram-p-black" viewBox="0 0 32 32">
+      <path fill="none" stroke="black" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M22.667 2.667h-13.333c-3.682 0-6.667 2.985-6.667 6.667v0 13.333c0 3.682 2.985 6.667 6.667 6.667v0h13.333c3.682 0 6.667-2.985 6.667-6.667v0-13.333c0-3.682-2.985-6.667-6.667-6.667v0z"></path>
+      <path fill="none" stroke="black" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M21.333 15.16c0.042 0.251 0.066 0.54 0.066 0.834 0 2.946-2.388 5.333-5.333 5.333-2.688 0-4.911-1.988-5.28-4.574l-0.003-0.028c-0.032-0.22-0.050-0.473-0.050-0.731 0-2.946 2.388-5.333 5.333-5.333 2.651 0 4.85 1.934 5.264 4.468l0.004 0.031zM23.333 8.667h0.016"></path>
+    </symbol>
 <symbol id="icon-facebook-p" viewBox="0 0 32 32">
 <path fill="none" stroke="#f7f7f7" style="stroke: var(--color1, #f7f7f7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M24 2.667h-4c-3.682 0-6.667 2.985-6.667 6.667v0 4h-4v5.333h4v10.667h5.333v-10.667h4l1.333-5.333h-5.333v-4c0-0.736 0.597-1.333 1.333-1.333v0h4v-5.333z"></path>
 </symbol>

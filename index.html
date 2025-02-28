@@ -9,7 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
 </head>
 <body>
@@ -20,8 +20,8 @@
         <nav>
          <ul class="nav-page list">
             <li> <a class="header-link after-link" href="">HOME</a></li>
-            <li> <a class="header-link" href="">HOTEL</a> </li>
-            <li> <a class="header-link" href="">RESTAURANT</a> </li>
+            <li> <a class="header-link" href="/hotel.html">HOTEL</a> </li>
+            <li> <a class="header-link" href="/rest.html">RESTAURANT</a> </li>
          </ul>
         </nav>
         <div class="logo-container"><a class="logo" href=""><div class="logo-top">MIMINO </div> <span class="logo-span">RESTAURANT-HOTEL COMPLEX</span></a></div>
@@ -125,8 +125,10 @@
                 </li>
             </ul>
             <div class="button-choice">
-              <button class="rest-choice" type="button">svg</button></li>
-              <button class="rest-choice" type="button">svg</button> </li>
+              <button class="rest-choice" type="button"><svg class="switch" width="7" height="14px"><use href="/icon/symbol-defs.svg#icon-Vector-m-2"></use></svg></button></li>
+              <button class="rest-choice" type="button"><svg class="switch" width="7" height="14px">
+                <use href="/icon/symbol-defs.svg#icon-Vector-m-1"></use>
+            </svg></button> </li>
             </div>
             </div>
         </section>
@@ -198,24 +200,98 @@
             <h2 class="display-none">footer</h2>
             <nav class="footer-nav">
                 <a class="footer-link" href="">HOME</a>
-                <a class="footer-link" href="">HOTEL</a>
-                <a class="footer-link" href="">RESTAURANT</a>
+                <a class="footer-link" href="/hotel.html">HOTEL</a>
+                <a class="footer-link" href="/rest.html">RESTAURANT</a>
             </nav>
                             <div class="logo-container-f"><a class="logo-f" href="">
                                     <div class="logo-top-f">MIMINO </div> <span class="logo-span-f">RESTAURANT-HOTEL COMPLEX</span>
                                 </a></div>
             <ul class="social-footer list">
                 <li>
-                    <a href="">svg-i</a>
+                    <a href=""><svg class="icon-b" width="24px" height="24px"><use href="/icon/symbol-b.svg#icon-instagram-b"></use></svg></a>
                 </li>
                 <li>
-                    <a href="">svg-f</a>
+                    <a href=""><svg class="icon-b" width="24px" height="24px">
+                        <use href="/icon/symbol-b.svg#icon-facebook-b"></use>
+                    </svg></a>
                 </li>
-                <li> <a href="">svg-t</a></li>
+                <li> <a href=""><svg class="icon-b" width="24px" height="24px">
+                    <use href="/icon/symbol-b.svg#icon-twitter-b"></use>
+                </svg></a></li>
             </ul>
             </div>
             </div>
                 </section>
     </footer>
+    <div class="modal-overlay"><div class="modal">
+        <div class="flex-exit"><h1 class="h1-modal">BOOK <span class="span-modal">A TABLE </span></h1> <button type="button" class="button-exit-modal-r"><svg class="exit-icon-r" width="14px" height="14px"><use href="/icon/sprite-2.svg#icon-close-black"></use></svg></button></div>
+        <div role="group" class="form-group">
+            <form class="form-modal-1">
+                <div class="form-flex">
+             <label class="label-modal-1">YOUR NAME
+                    <input class="input-modal-1" type="text" name="name" >
+                    <div class="info-modal">Who should book a table for?</div>
+             </label>
+             <label class="label-modal-1">number of people <svg class="icon-b-12" width="10px" height="10px">
+                <use href="/icon/symbol-21.svg#icon-chevron-down"></use>
+            </svg>
+                                    <input class="input-modal-1-1" type="number" name="name">
+             </label>
+             <label class="label-modal-1">+ 38 ()
+              <input class="input-modal-1" type="tel" name="tel"><div class="info-modal">Phone number</div>
+
+             </label>
+                        <label class="label-modal-1">Today <svg class="icon-b-12" width="10px" height="10px">
+                            <use href="/icon/symbol-21.svg#icon-chevron-down"></use>
+                        </svg>
+                            <input class="input-modal-1" type="date" name="date">
+                            <div class="info-modal">What date to book?</div>
+                        </label>
+                        </div>
+                        <div class="button-container-modal-rest"><button class="button-submit-rest" type="submit">MAKE A RESERVATION</button></div></div>
+             </form>
+            
+            </div>
+    
+    
+    </div><div class="modal-overlay"><div class="modal-1">
+            <div class="flex-exit">
+                <h1 class="h1-modal">BOOK <span class="span-modal">A TABLE </span></h1> <button type="button"
+                    class="button-exit-modal-r"><svg class="exit-icon-r" width="14px" height="14px">
+                        <use href="/icon/sprite-2.svg#icon-close-black"></use>
+                    </svg></button>
+            </div>
+                    <div role="group" class="form-group">
+                        <form class="form-modal-1">
+                            <div class="form-flex">
+                                <label class="label-modal-1">YOUR NAME
+                                    <input class="input-modal-1" type="text" name="name">
+                                    <div class="info-modal">Who should book a table for?</div>
+                                </label>
+                                    <label class="label-modal-1">number of people <svg class="icon-b-12" width="10px" height="10px">
+                                            <use href="/icon/symbol-21.svg#icon-chevron-down"></use>
+                                        </svg>
+                                        <input class="input-modal-1" type="number" name="date">
+                                    </label>
+                                     <label class="label-modal-1">+ 38 ()
+                                        <input class="input-modal-1" type="tel" name="tel">
+                                        <div class="info-modal">Phone number</div>
+                                    </label>
+                                <label class="label-modal-1">Today <svg class="icon-b-12" width="10px" height="10px">
+                                        <use href="/icon/symbol-21.svg#icon-chevron-down"></use>
+                                    </svg>
+                                    <input class="input-modal-1" type="date" name="date">
+                                    <div class="info-modal">What date to book?</div>
+                                </label>
+                            </div>
+                            <div class="button-container-modal-rest"><button class="button-submit-rest" type="submit">MAKE A
+                                    RESERVATION</button></div>
+                    </div>
+                    </form>
+
+
+
+
+    </div></div></div>
 </body>
 </html>

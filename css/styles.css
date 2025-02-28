@@ -1,6 +1,7 @@
 :root{
     --BLACK-COLOR:rgba(18, 18, 18, 1);
     --WHITE-COLOR:rgba(246, 246, 246, 1);
+    --white-color-for:rgba(246, 246, 246, 0.2);
     --shadow-box:rgba(0, 0, 0, 0.1);
     --animation-text:cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -314,6 +315,11 @@ justify-content: flex-end;
     position: relative;
 }
 /* RESTAURANT */
+.rest-choice{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
 .text-container{
     display: flex;
     align-items: center;
@@ -526,4 +532,121 @@ transition: background-color 250ms var(--animation-text), color 250ms var(--anim
 .footer-link{
     color: var(--BLACK-COLOR);
     font-size: 14px;
+}
+.icon-social{
+   fill: none;
+   
+}
+/* modal */
+.modal-overlay{
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(46, 47, 66, 0.4);
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.modal{
+    background-color:var(--BLACK-COLOR) ;
+    color: var(--WHITE-COLOR);
+    max-width: 628px;
+    width: 100%;
+    max-height: 476px;
+    height: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.h1-modal{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1 ;
+    margin-top: 32px;
+}
+.form-group{
+    margin-top: 60px;
+}
+.label-modal-1{
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input-modal-1{
+    max-width: 266px;
+    width: 266px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid var(--white-color-for);
+}
+.info-modal{
+    font-size: 8px;
+    letter-spacing: 0.18em;
+    color: rgba(216, 215, 215, 1);
+    margin-top: 8px;
+}
+.input-modal-1-1{
+        max-width: 266px;
+        width: 266px;
+            background-color: transparent;
+            border: 0px;
+            border-bottom: 1px solid var(--white-color-for);
+            color: transparent;
+}
+.form-flex{
+    display: flex;
+    gap: 40px 32px;
+    flex-wrap: wrap;
+}
+.button-submit-rest{
+    background-color:transparent ;
+    border-radius: 32px;
+    border: 0.8px solid var(--WHITE-COLOR);
+    width: 444px;
+    height: 52px;
+    color: var(--WHITE-COLOR);
+}
+.button-container-modal-rest{
+    margin-top: 80px;
+    display: flex;
+justify-content: center;
+}
+.icon-b-12{
+    position: absolute;
+    right: 0;
+    top:2px;
+}
+.flex-exit{
+    display: flex;
+}
+.button-exit-modal-r{
+    margin-left: auto;
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+.exit-icon-r{
+    fill: var(--WHITE-COLOR);
+}
+.span-modal{
+    font-style: italic;
+}
+/* modal book a room */
+.modal-1{
+    background-color: var(--BLACK-COLOR);
+        color: var(--WHITE-COLOR);
+        max-width: 628px;
+        width: 100%;
+        max-height: 576px;
+        height: 100%;
+        padding-left: 32px;
+        padding-right: 32px;
 }
