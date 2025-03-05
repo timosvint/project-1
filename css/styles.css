@@ -657,7 +657,6 @@ justify-content: center;
             max-width: 375px;
             padding-left: 20px;
             padding-right: 17px;
-            margin: 0;
         }
 .hero{
     display: inline-block;
@@ -920,11 +919,12 @@ body{
 }
 .image-h{
     top: 108px;
-    left: 20px;
+    left: 77px;
 }
 .header-container{
     padding-left: 0;
     max-width: 375px;
+    padding-right: 0;
 }
 .modal{
     max-width: 335px;
@@ -944,6 +944,7 @@ body{
 .h1-modal{
     font-size: 28px;
     margin-top: 24px;
+    line-height: 1.4;
 }
 .form-flex{
     margin-top: 40px;
@@ -962,9 +963,18 @@ body{
     width: 287px;
 }
 .modal-overlay{
-    max-width: 375px;
+    width: 100%;
 }
 .photo-and-text{
     margin: 0;
+}
+.modal-1{
+    max-width: 335px;
+    padding-left: 20px;
+    padding-right: 14px;
+    min-height: 636px;
+}
+.form-group{
+    margin-top: 40px;
 }
 }
