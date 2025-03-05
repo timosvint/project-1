@@ -784,7 +784,7 @@ display: inline-block;
 .example-h2{
     margin-bottom: 32px;
     font-size: 32px;
-    width: 357px;
+
 }
 .example-text{
 font-size: 14px;
@@ -963,5 +963,8 @@ body{
 }
 .modal-overlay{
     max-width: 375px;
+}
+.photo-and-text{
+    margin: 0;
 }
 }
