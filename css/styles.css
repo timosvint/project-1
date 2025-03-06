@@ -1030,4 +1030,7 @@ body{
 .section-social-menu{
  padding-top: 326px;
 }
+.modal-overlay{
+    display: none;
+}
 }
