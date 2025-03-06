@@ -61,7 +61,7 @@ margin: 0 auto;
     align-items: center;
     height: 78px;
     border-bottom:1px solid rgba(246, 246, 246, 0.2);
-   z-index: 2;
+   z-index: 10;
 position: absolute;
 max-width: 1440px;
 padding-left: 32px;
@@ -688,14 +688,13 @@ justify-content: center;
     width: 131px;
     height: 34px;
 }
-.social{
-    display: none;
-}
+
 .hero-container{
     display: flex;
     flex-direction: column;
     margin-top: 0;
     text-align: center;
+    position: relative;
 }
 .hero-h3{
     text-align:start;
@@ -918,13 +917,14 @@ body{
     z-index: 2;
 }
 .image-h{
-    top: 108px;
-    left: 77px;
+    top: 0px;
 }
 .header-container{
     padding-left: 0;
     max-width: 375px;
     padding-right: 0;
+        gap: 83px;
+        margin: 0 auto;
 }
 .modal{
     max-width: 335px;
@@ -976,5 +976,58 @@ body{
 }
 .form-group{
     margin-top: 40px;
+}
+.icon-menu-exit{
+    display: none;
+}
+.button-menu-mobile{
+    background-color: transparent;
+    border-color:transparent ;
+}
+
+.logo-top{
+    font-size: 14px;
+}
+.logo-span{
+    font-size: 6px;
+}
+.menu-mobile {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+     height: 100%;
+    width: 100%;
+    background-color: var(--BLACK-COLOR);
+    padding-left: 16px;
+    padding-right: 24px;
+    z-index: 998;
+    overflow-y:hidden ;
+}
+.header-main-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-page-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.header-link-menu{
+        color: var(--WHITE-COLOR);
+            font-size: 18px;
+            letter-spacing: 0.05em;
+            padding-bottom: 6px;
+}
+.nav-page-list-menu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section-nav-menu{
+    padding-top: 128px;
+}
+.section-social-menu{
+ padding-top: 326px;
 }
 }
