@@ -326,3 +326,115 @@ body {
     fill: none;
 
 }
+
+@media screen and (max-width:767px) {
+      .container{
+        max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .mobile-display{
+        display: none;
+      }
+      .section{
+        padding-bottom: 32px;
+        padding-top: 32px;
+      }
+      .logo-container{
+        margin: 0;
+      }
+      .header-container{
+        max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
+      }
+      .text-hero-container{
+        margin-top: 0
+      }
+      .text-container-hotel{
+        margin-top: 0;
+      }
+      .hero{
+        font-size: 40px;
+      }
+      .button-hero{
+            max-width: 117px;
+      }
+      .logo-top{
+        font-size: 14px;
+      }
+      .logo-span{
+        font-size: 6px;
+      }
+      .mobile-photo{
+        margin-top: 40px;
+      }
+      .text-hero{
+        font-size: 14px;
+        margin-top: 40px;
+      }
+      .button-hotel{
+        justify-content: flex-end;
+      }
+      .testos{
+        flex-direction: column;
+      }
+      .h2-info{
+        font-size: 28px;
+      }
+      .text-info{
+        font-size: 14px;
+      }
+      .display-flex-r{
+        flex-direction: column;
+        gap: 40px;
+      }
+      .display-flex-f{
+        gap: 40px 0;
+      }
+      .h2-info{
+        margin-bottom: 28px;
+      }
+      .test{
+        margin-top: 40px;
+        max-width: 335px;
+        width: 100%;
+      }
+      .img-position{
+        position: absolute;
+        top: 120px;
+        right: 100px;
+      }
+      .container-for-div{
+        position: relative;
+      }
+      .bottom-info{
+        padding-top: 64px;
+      }
+      .teastik{
+        display: flex;
+        justify-content: center;
+      }
+      .button-info{
+        max-width: 175px;
+        width: 100%;
+      }
+      .footer-container{
+        justify-content: space-between;
+      }
+      .logo-top-f{
+        text-align: start;
+      }
+      .button-menu-mobile{
+        background-color: transparent;
+        border-color: transparent;
+      }
+      .icon-menu-exit{
+        display: none;
+      }
+        .social{
+            margin: 0;
+        }
+
+}

@@ -68,7 +68,11 @@ body {
     background-color: #fff;
     padding-bottom: 78px;
 }
-
+.button-hero:active{
+background-color: var(--BLACK-COLOR);
+border-color:transparent;
+color: var(--WHITE-COLOR);
+}
 .header-link {
     color: var(--BLACK-COLOR);
     font-size: 14px;
@@ -157,7 +161,10 @@ body {
 .text-hero-container {
     margin-top: 204px;
 }
-
+.text-hero{
+    width: 338px;
+    font-size: 14px;
+}
 .hero {
     font-size: 90px;
     line-height: 1;
@@ -231,6 +238,11 @@ body {
 .menu-container{
     color: var(--WHITE-COLOR);
     text-transform: capitalize;
+}
+.button-menu:active{
+    background-color: var(--BLACK-COLOR);
+    color: var(--WHITE-COLOR);
+    border-color:var(--WHITE-COLOR) ;
 }
 .menu-flex{
     display: flex;
@@ -513,4 +525,478 @@ text-transform: uppercase;
 
 .span-modal {
     font-style: italic;
+}
+.table-img{
+    display: none;
+}
+.mobile-img{
+    display: none;
+}
+.button-menu-mobile{
+    display: none;
+}
+.button-rest-menu{
+    display: none
+}
+.desktop-display{
+    display: none;
+}
+@media screen and (max-width:767px) {
+.button-menu-mobile{
+    display: flex;
+}
+.desktop-display{
+    display: block
+}
+    /* head */
+    .container {
+        max-width: 375px;
+    }
+.mobile-display{
+    display: none;
+}
+.section{
+    padding-top: 32px;
+    padding-bottom: 32px;    
+}
+.modal{
+    display: inline-block;
+    max-width: 335px;
+    max-height: 528px;
+}
+.header-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 375px;
+}
+.logo-top-f{
+    text-align: start;
+}
+.logo-container{
+    margin: 0;
+}
+.header-container-2{
+    padding-left: 0;
+}
+.button-container-modal-rest{
+    margin-top: 40px;
+}
+.h1-modal{
+    font-size: 28px;
+    margin-top: 24px;
+}
+.button-exit-modal-r{
+    margin-top: 14px;
+}
+.form-group{
+    margin-top: 40px;
+}
+.form-flex{
+    gap: 32px 0;
+}
+.icon-menu-exit{
+    display: none;
+}
+.logo-container{
+    margin-left: 82px;
+}
+.hero{
+    font-size: 40px;
+}
+.text-hero-container{
+    margin-top: 0px;
+}
+.button-hero{
+    max-width: 128px;
+}
+.text-hero{
+    font-size: 14px;
+}
+.text-container-hotel{
+    margin-top: 40px;
+}
+.section-hero{
+    overflow: hidden;
+}
+.text-hero{
+    max-width: 338px;
+    width: 100%;
+}
+.button-hotel{
+margin-left: 231px;
+}
+.container-rest{
+    display: block;
+}
+.mobile-img-flex-1{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.mobile-img{
+    display: block;
+}
+.text-rest{
+    font-size: 14px;
+    max-width: 335px;
+    width: 100%;
+    letter-spacing: -0.02em;
+}
+.menu-flex{
+    display: block;
+}
+.button-menu-container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 40px;
+}
+.display-flex{
+    width: 100%;
+    max-width: 335px;
+}
+.h2-menu{
+    font-size: 18px;
+}
+.h3-menu{
+    font-size: 14px;
+}
+.table-img{
+    display: none;
+}
+.container-hero{
+    overflow: hidden;
+}
+.text-menu{
+    display: inline-block;
+    font-size: 10px;
+    max-width: 233px;
+    width: 100%;
+}
+.text-g{
+    font-size: 12px;
+    text-transform: lowercase;
+}
+.number-menu{
+    font-size:12px ;
+}
+.marg-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.display-flex-1{
+    max-width: 335px;
+    width: 100%;
+}
+.button-rest-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 20px;
+}
+.icon-hotel-1{
+    fill: #fff;
+
+}
+.button-menu{
+    max-width: 140px;
+    height: 40px;
+}
+.hotel-photo{
+    margin-top: 40px;
+}
+.social-footer{
+    padding-left: 0;
+    padding-right: 0;
+}
+.button-menu-mobile{
+    background-color: transparent;
+    border-color:transparent ;
+}
+/* 1 */
+.menu-mobile {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--BLACK-COLOR);
+    padding-left: 16px;
+    padding-right: 24px;
+    z-index: 998;
+    overflow-y: hidden;
+}
+.button-hero{
+    margin-top: 0;
+}
+.button-container-rest{
+    margin-top: 24px;
+}
+
+.header-main-container {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: black;
+}
+
+.header-container {
+    padding-left: 0;
+    max-width: 375px;
+    padding-right: 0;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(246, 246, 246, 0.2);
+}
+
+.button-menu-mobile {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.section-menu {
+    background-color: rgba(18, 18, 18, 1);
+}
+
+.logo-menu-hotel {
+    color: var(--WHITE-COLOR);
+}
+
+.logo-menu {
+    color: var(--WHITE-COLOR);
+}
+
+.section-nav-menu {
+    padding-top: 128px;
+}
+
+.nav-page-list-menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-page-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.header-link-menu {
+    color: var(--WHITE-COLOR);
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    padding-bottom: 6px;
+}
+
+.section-social-menu {
+    padding-top: 326px;
+}
+}
+@media screen and (min-width:768px) and (max-width:1440px) {
+    .desktop-display{
+        display: block;
+    }
+    .button-menu-mobile {
+            display: flex;
+        }
+    .container{
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .table-display{
+        display: none;
+    }
+ .text-hero-container{
+    margin-top: 0;
+ }
+.mobile-img{
+    display: none;
+}
+.nav-page{
+    display: none;
+}
+.container-hero{
+    overflow: hidden;
+}
+.header-container{
+    max-width: 768px;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-between;
+}
+.logo-container{
+    margin: 0;
+}
+.social{
+    margin: 0;
+}
+.hero{
+    font-size: 80px;
+}
+.button-hero{
+    max-width:140px ;
+    height: 40px;
+}
+.photo-hotel{
+    margin-top: 54px;
+}
+.text-hero{
+    max-width: 338px;
+    width: 100%;
+}
+.text-container-hotel{
+    margin: 0;
+}
+.bottom-container{
+    display: flex;
+    margin-top: 40px;
+}
+.button-hotel{
+    order: 2;
+    margin-left: 262px;
+}
+.text-container-hotel{
+    order: 1;
+}
+.button-menu-mobile{
+     background-color: transparent;
+     border-color: transparent;
+}
+.icon-menu-exit{
+    display: none;
+}
+.section{
+    padding-top: 40px;
+    padding-bottom:40px ;
+}
+.table-container-img{
+    display: flex;
+}
+.container-rest{
+    flex-direction: column;
+}
+.teast{
+    display: flex;
+    gap: 32px;
+}
+.tast{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.table-text{
+    display: flex;
+    gap: 32px;
+}
+.text-rest{
+    font-weight: 400;
+}
+.section-menu{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.menu-flex{
+    flex-direction: column;
+   align-items: center;
+}
+.text-menu{
+    max-width: 345px;
+    width: 100%;
+}
+.marg-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.button-rest-menu{
+    display: flex;
+    gap: 32px;
+}
+.icon-hotel-1{
+    fill: #fff;
+}
+.button-menu-container{
+    margin-left: 95px;
+    margin-top: 40px;
+}
+.logo-top-f{
+    text-align: start;
+}
+body{
+    padding-bottom: 48px;
+}
+.table-img{
+    display: block;
+}
+/* 1 */
+.menu-mobile {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--BLACK-COLOR);
+    padding-left: 16px;
+    padding-right: 24px;
+    z-index: 998;
+    overflow-y: hidden;
+}
+
+.header-main-container {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: black;
+}
+.button-menu-mobile {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.section-menu {
+    background-color: rgba(18, 18, 18, 1);
+}
+
+.logo-menu-hotel {
+    color: var(--WHITE-COLOR);
+}
+
+.logo-menu {
+    color: var(--WHITE-COLOR);
+}
+
+.section-nav-menu {
+    padding-top: 128px;
+}
+
+.nav-page-list-menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-page-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.header-link-menu {
+    color: var(--WHITE-COLOR);
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    padding-bottom: 6px;
+}
+
+.section-social-menu {
+    padding-top: 326px;
+}
+.table-header{
+    max-width: 832px;
+}
+.table-header{
+    border-bottom: 1px solid rgba(246, 246, 246, 0.2);
+}
 }

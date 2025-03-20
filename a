@@ -43,3 +43,10 @@ display: none;
 .for-desktop{
 width: 460px;
 }
+                    <button class="button-menu-mobile" type="button"><svg class="icon-menu-mobile" width="28px" height="28px">
+                            <use href="/icon/symbol-clsoe.svg#icon-menu-03"></use>
+                        </svg>
+                        <svg class="icon-menu-exit" width="28px" height="28px">
+                            <use href="/icon/symbol-clsoe.svg#icon-x-close"></use>
+                        </svg>
+                    </button>

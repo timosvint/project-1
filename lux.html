@@ -18,8 +18,15 @@
         <section class="header-section">
             <div class="container">
                 <div class="header-container">
+               <button class="button-menu-mobile" type="button"><svg class="icon-menu-mobile" width="28px" height="28px">
+                       <use href="/icon/symbol-clsoe.svg#icon-menu-03"></use>
+                   </svg>
+                   <svg class="icon-menu-exit" width="28px" height="28px">
+                       <use href="/icon/symbol-clsoe.svg#icon-x-close"></use>
+                   </svg>
+               </button>
                     <nav>
-                        <ul class="nav-page list">
+                        <ul class="nav-page list mobile-display ">
                             <li> <a class="header-link " href="/index.html">HOME</a></li>
                             <li> <a class="header-link " href="/hotel.html">HOTEL</a> </li>
                             <li> <a class="header-link" href="/rest.html">RESTAURANT</a> </li>
@@ -51,12 +58,26 @@
                         <h1 class="hero">DOUBLE <br> LUXURY ROOM</h1>
                         <button class="button-hero" type="button">view prices</button>
                         <div class="text-container-hotel">
+                    <div class="photo-hotel mobile-photo">
+                        <ul class="hotel-photo list">
+                            <li> <img src="/image-2x/image-16-2x.jpg" alt="hotel from outside" width="250px" height="429px"></li>
+                            <li> <img src="/image-2x/image-17-2x.jpg" alt="left-side-hotel" width="93px" height="429px"> </li>
+                        </ul>
+                        <ul class="button-hotel list">
+                            <li><button class="hotel-buttons" type="button"><svg class="icon-hotel" width="14px" height="14px">
+                                        <use href="/icon/symbol-defs.svg#icon-Vector-m-2"></use>
+                                    </svg></button></li>
+                            <li><button class="hotel-buttons" type="button"><svg class="icon-hotel" width="14px" height="14px">
+                                        <use href="/icon/symbol-defs.svg#icon-Vector-m-1"></use>
+                                    </svg></button> </li>
+                        </ul>
+                    </div>
                             <p class="text-hero">Whether you're in the mood for a hearty <br> breakfast, a light lunch, or a
                                 romantic <br> dinner, our menu has something for <br>
                                 everyone.</p>
                         </div>
                     </div>
-                    <div class="photo-hotel">
+                    <div class="photo-hotel mobile-display">
                         <ul class="hotel-photo list">
                             <li> <img src="/image/image-lux.jpg" alt="hotel from outside" width="436px" height="580px"></li>
                             <li> <img src="/image/image-lux-1.jpg" alt="left-side-hotel" width="218" height="580px"> </li>
@@ -183,11 +204,14 @@
         </div>
         
             <ul class="bottom-info list">
-            <div>
-            <li><img src="/image/image-4.jpg" alt="sprey" width="439px" height="219px"></li>
-            <li><button  class="button-info" type="button">Book a room </button></li>
+            <div class="container-for-div">
+            <li><img class="mobile-display" src="/image/image-4.jpg" alt="sprey" width="439px" height="219px"></li>
+            <li><img class="img-position" src="/image-2x/Rectangle-3672.png" alt="sprey" width="249px" height="200px"></li>
+        <li><img class="testik" src="/image-2x/Rectangle-3671-1.jpg" alt="xolodilnik" width="259px" height="333x"></li>
+        </ul>
+            <li class="teastik list"><button  class="button-info" type="button">Book a room </button></li>
             </div>
-        <li><img  class="testik" src="/image/img-hotel-5.jpg" alt="xolodilnik" width="496px" height="636px"></li>
+        <li class="list"><img  class="testik mobile-display" src="/image/img-hotel-5.jpg" alt="xolodilnik" width="496px" height="636px"></li>
         </ul>
             </div>
             </div>
@@ -199,7 +223,7 @@
                 <div>
                     <div class="footer-container">
                         <h2 class="display-none">footer</h2>
-                        <nav class="footer-nav">
+                        <nav class="footer-nav mobile-display">
                             <a class="footer-link" href="/index.html">HOME</a>
                             <a class="footer-link" href="">HOTEL</a>
                             <a class="footer-link" href="/rest.html">RESTAURANT</a>
