@@ -84,6 +84,7 @@ color: var(--WHITE-COLOR);
 .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 78px;
     border-bottom: 1px solid rgba(18, 18, 18, 0.3);
     z-index: 2;
@@ -101,9 +102,6 @@ color: var(--WHITE-COLOR);
     gap: 32px;
 }
 
-.logo-container {
-    margin-left: 370px;
-}
 
 .logo-top {
     text-align: center;
@@ -120,7 +118,6 @@ color: var(--WHITE-COLOR);
 
 .social {
     display: flex;
-    margin-left: auto;
     gap: 16px;
 }
 
@@ -851,11 +848,14 @@ margin-left: 231px;
 }
 .bottom-container{
     display: flex;
+    max-width: 744px;
+    width: 100%;
     margin-top: 40px;
 }
 .button-hotel{
     order: 2;
-    margin-left: 262px;
+    margin-left: auto;
+    gap: 16px;
 }
 .text-container-hotel{
     order: 1;
